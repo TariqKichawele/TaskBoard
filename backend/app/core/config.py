@@ -12,7 +12,7 @@ class Config:
     DATABASE_URL: str = os.getenv("DATABASE_URL", "")
     FRONTEND_URL: str = os.getenv("FRONTEND_URL", "")
 
-    FREE_TIER_MEMBERSHIP_LIMIT: int = 2
+    FREE_TIER_LIMIT: int = 2
     PRO_TIER_MEMEBERSHIP_LIMIT: int = 0
 
 settings = Config()
